@@ -22,3 +22,20 @@ Construir um programa simples para o controle acadêmico de uma instituição de
   Igual ou superior a 7, imprimir a situação "Aprovado".
 
 * Se a opção 3 for escolhida no menu do programa, então o programa deverá imprimir na tela todos os alunos, seguindo as mesmas condições para impressão do boletim, exceto pelo fato de que o programa não deve solicitar o código, já que vai imprimir todos os registros.
+
+### Aplicação em execução
+
+Inserindo aluno reprovado
+![img.png](img/alunoReprovado.png)
+
+Inserindo aluno em prova final
+![img.png](img/alunoProvaFinal.png)
+
+Inserinfo aluno aprovado
+![img.png](img/alunoAprovado.png)
+
+Acessando boletim de um aluno
+![img.png](img/alunoBoletim.png)
+
+Relatório de notas da turma
+![img.png](img/relatorioNotasTurma.png)
