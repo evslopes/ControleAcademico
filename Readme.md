@@ -31,7 +31,7 @@ Inserindo aluno reprovado
 Inserindo aluno em prova final
 ![img.png](img/alunoProvaFinal.png)
 
-Inserinfo aluno aprovado
+Inserindo aluno aprovado
 ![img.png](img/alunoAprovado.png)
 
 Acessando boletim de um aluno
@@ -39,3 +39,6 @@ Acessando boletim de um aluno
 
 Relatório de notas da turma
 ![img.png](img/relatorioNotasTurma.png)
+
+Saindo da aplicação
+![img.png](img/opcaoSairDaAplicacao.png)
