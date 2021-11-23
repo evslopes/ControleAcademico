@@ -2,7 +2,7 @@ package br.edu.infnet;
 
 import java.util.Scanner;
 
-import static br.edu.infnet.Constante.QTDE_MAX;
+import static br.edu.infnet.auxiliar.Constante.QTDE_MAX;
 
 public class ControleAcademico {
 
