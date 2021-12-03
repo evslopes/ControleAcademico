@@ -1,10 +1,10 @@
 # Fundamentos do Desenvolvimento Java 
-## Teste de Performance - TP2 
+## Teste de Performance - TP3 
 #### Elvis Lopes
 
 ### Escopo
 
-Criar outro módulo do programa de controle acadêmico para uma instituição de ensino.
+Evoluir o módulo do programa de controle acadêmico para uma instituição de ensino.
 
 * Ao ser iniciado, o programa deve exibir um menu com as seguintes opções:
 
@@ -30,3 +30,8 @@ Criar outro módulo do programa de controle acadêmico para uma instituição de
 * Defina os atributos privados para cada classe, segundo a sua concepção, e métodos públicos get e set para todos os atributos, seguindo os padrões de encapsulamento. 
 * Fique atento à utilização de modificadores protected na classe Pessoa para que Aluno e Professor tenham acesso.
 * Crie uma classe que deve conter o método main para a execução do programa e realize alguns testes para demonstrar o funcionamento dele, instanciando os objetos e realizando chamadas de métodos.
+* Percorra o código do seu programa, com o foco em possíveis erros que ele pode lançar. Por exemplo, suponha que uma opção acima da permitida no menu seja digitada, ou que o vetor exceda o limite, ou que uma string seja informada quando o valor solicitado é um inteiro.
+* Verifique e trate esses casos usando try, catch e finally. O finally é opcional, mas você deve utilizar pelo menos uma vez em seu programa. Escolha duas exceções não verificadas e trate em seu código. Além disso, crie sua própria classe de exceção e trate dentro do seu programa usando throws e throw.
+* Neste teste, você também deve tratar os nomes do professores e alunos que são informados no programa. Crie nos objetos atributos referentes a nome, nome do meio e último nome. Instancie objetos da classe String variando a utilização de seus construtores.
+* Você deve receber do usuário os nomes completos, mas separá-los para armazenar nas variáveis correspondentes. Você deve fazê-lo de duas formas no programa: a primeira utilizando os métodos substring e indexOf, e a segunda utilizando split. Implemente as duas formas nos métodos sets das classes e realize testes elas.
+* Para retornar as informações, implemente o uso da classe StringBuilder e seu método append para concatenar o nome completo e informar ao usuário quando o método consultarSituacao for chamado.

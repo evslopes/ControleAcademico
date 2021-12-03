@@ -1,26 +1,9 @@
 package br.edu.infnet.dominio;
 
-public class Pessoa {
+public abstract class Pessoa {
     private Integer id;
     private String nome;
     private int idade;
-
-    private static int posicao;
-
-    public Pessoa(Integer id, String nome, int idade) {
-        this.setId(posicao++);
-        this.nome = nome;
-        this.idade = idade;
-    }
-
-    public static int getPosicao() {
-        return posicao;
-    }
-
-    public static void setPosicao(int posicao) {
-        Pessoa.posicao = posicao;
-    }
-
 
     public Integer getId() {
         return id;
@@ -44,5 +27,17 @@ public class Pessoa {
 
     public void setIdade(int idade) {
         this.idade = idade;
+    }
+
+    public void Impressao(){
+        System.out.println(this);
+    };
+
+    public abstract String ObterSituacao();
+
+    @Override
+    public String toString() {
+        return "Registro id " + id +
+                " - Nome: " + nome;
     }
 }
