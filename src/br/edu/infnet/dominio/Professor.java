@@ -1,11 +1,14 @@
 package br.edu.infnet.dominio;
 
+import br.edu.infnet.exceptions.NomeInvalidadoException;
+import br.edu.infnet.exceptions.QuantidadeInvalidaExceptions;
+
 public class Professor extends Pessoa {
 
     private Integer classe;
     private Float salario;
 
-    public Professor() {
+    public Professor() throws QuantidadeInvalidaExceptions {
     }
 
     @Override

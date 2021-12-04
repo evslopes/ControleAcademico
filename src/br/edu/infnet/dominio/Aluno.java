@@ -1,11 +1,13 @@
 package br.edu.infnet.dominio;
 
+import br.edu.infnet.exceptions.QuantidadeInvalidaExceptions;
+
 public class Aluno extends Pessoa {
 
     private Integer classe;
     private Float n1, n2;
 
-    public Aluno() {
+    public Aluno() throws QuantidadeInvalidaExceptions {
     }
 
     private float calcularMedia() {

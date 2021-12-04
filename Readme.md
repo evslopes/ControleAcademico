@@ -2,6 +2,26 @@
 ## Teste de Performance - TP3 
 #### Elvis Lopes
 
+### Telas
+
+Tela inicial
+![img.png](img/TelaInicial.png)
+
+Cadastrando um professor
+![img.png](img/CadastroProfessor.png)
+
+Cadastrando aluno
+![img.png](img/CadastrandoAluno.png)
+
+Consultando professor
+![img.png](img/ConsultandoProfessor.png)
+
+Consultando aluno
+![img.png](img/ConsultandoAluno.png)
+
+Finalizando aplicação
+![img.png](img/FinalizandoApp.png)
+
 ### Escopo
 
 Evoluir o módulo do programa de controle acadêmico para uma instituição de ensino.
