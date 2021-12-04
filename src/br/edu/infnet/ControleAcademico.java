@@ -3,6 +3,7 @@ package br.edu.infnet;
 import br.edu.infnet.dominio.Aluno;
 import br.edu.infnet.dominio.Pessoa;
 import br.edu.infnet.dominio.Professor;
+import br.edu.infnet.exceptions.QuantidadeInvalidaExceptions;
 
 import java.util.Scanner;
 
@@ -29,7 +30,8 @@ public class ControleAcademico {
 
             switch (opcao) {
                 case 1:
-                    if (qtde < QTDE_MAX) {
+
+                    try {
 
                         Professor professor = new Professor();
                         professor.setId(qtde);
@@ -47,12 +49,12 @@ public class ControleAcademico {
                         professor.cadastroEfetivado();
                         qtde++;
 
-                    } else {
-                        System.out.println("Impossível realizar o cadastramento, número máximo de registros atingido.");
+                    } catch (QuantidadeInvalidaExceptions e) {
+                        System.out.println(e.getMessage());
                     }
                     break;
                 case 2:
-                    if (qtde < QTDE_MAX) {
+                    try {
 
                         Aluno aluno = new Aluno();
                         aluno.setId(qtde);
@@ -72,8 +74,8 @@ public class ControleAcademico {
                         aluno.cadastroEfetivado();
                         qtde++;
 
-                    } else {
-                        System.out.println("Impossível realizar o cadastramento, número máximo de alunos atingido.");
+                    } catch (QuantidadeInvalidaExceptions e) {
+                        System.out.println(e.getMessage());
                     }
                     break;
                 case 3:
